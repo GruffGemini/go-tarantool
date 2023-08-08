@@ -1,20 +1,10 @@
 package tarantool
 
 import (
-	"net"
 	"time"
 
 	"github.com/vmihailenco/msgpack/v5"
 )
-
-func SslDialTimeout(network, address string, timeout time.Duration,
-	opts SslOpts) (connection net.Conn, err error) {
-	return sslDialTimeout(network, address, timeout, opts)
-}
-
-func SslCreateContext(opts SslOpts) (ctx interface{}, err error) {
-	return sslCreateContext(opts)
-}
 
 // RefImplPingBody is reference implementation for filling of a ping
 // request's body.

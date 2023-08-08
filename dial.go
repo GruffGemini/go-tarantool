@@ -204,8 +204,6 @@ func dial(address string, opts DialOpts) (net.Conn, error) {
 	switch opts.Transport {
 	case dialTransportNone:
 		return net.DialTimeout(network, address, opts.DialTimeout)
-	case dialTransportSsl:
-		return sslDialTimeout(network, address, opts.DialTimeout, opts.Ssl)
 	default:
 		return nil, fmt.Errorf("unsupported transport type: %s", opts.Transport)
 	}

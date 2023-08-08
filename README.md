@@ -67,11 +67,7 @@ We define multiple [build tags](https://pkg.go.dev/go/build#hdr-Build_Constraint
 
 This allows us to introduce new features without losing backward compatibility.
 
-1. To disable SSL support and linking with OpenSSL, you can use the tag:
-   ```
-   go_tarantool_ssl_disable
-   ```
-2. To run fuzz tests with decimals, you can use the build tag:
+1. To run fuzz tests with decimals, you can use the build tag:
    ```
    go_tarantool_decimal_fuzzing
    ```
