@@ -49,16 +49,16 @@ check the version number). Do not use `gccgo-go`.
 **Note:** If your `go` version is older than 1.13 or if `go` is not installed,
 download and run the latest tarball from [golang.org][golang-dl].
 
-The package `go-tarantool` is located in [tarantool/go-tarantool][go-tarantool]
+The package `go-tarantool` is located in [GruffGemini/go-tarantool][go-tarantool]
 repository. To download and install, say:
 
 ```
-$ go get github.com/tarantool/go-tarantool/v2
+$ go get github.com/GruffGemini/go-tarantool/v2
 ```
 
 This should put the source and binary files in subdirectories of
 `/usr/local/go`, so that you can access them by adding
-`github.com/tarantool/go-tarantool` to the `import {...}` section at the start
+`github.com/GruffGemini/go-tarantool` to the `import {...}` section at the start
 of any Go program.
 
 ### Build tags
@@ -102,7 +102,7 @@ package tarantool
 
 import (
 	"fmt"
-	"github.com/tarantool/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2"
 )
 
 func main() {
@@ -121,7 +121,7 @@ func main() {
 }
 ```
 
-**Observation 1:** The line "`github.com/tarantool/go-tarantool/v2`" in the
+**Observation 1:** The line "`github.com/GruffGemini/go-tarantool/v2`" in the
 `import(...)` section brings in all Tarantool-related functions and structures.
 
 **Observation 2:** The line starting with "`Opts :=`" sets up the options for

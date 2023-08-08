@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GruffGemini/go-tarantool/v2"
+	. "github.com/GruffGemini/go-tarantool/v2/settings"
+	"github.com/GruffGemini/go-tarantool/v2/test_helpers"
 	"github.com/stretchr/testify/require"
-	"github.com/tarantool/go-tarantool/v2"
-	. "github.com/tarantool/go-tarantool/v2/settings"
-	"github.com/tarantool/go-tarantool/v2/test_helpers"
 )
 
 // There is no way to skip tests in testing.M,

@@ -11,7 +11,7 @@ REFERENCE_FILE := ${PROJECT_DIR}/${BENCH_PATH}/reference.txt
 BENCH_FILES := ${REFERENCE_FILE} ${BENCH_FILE}
 BENCH_REFERENCE_REPO := ${BENCH_PATH}/go-tarantool
 BENCH_OPTIONS := -bench=. -run=^Benchmark -benchmem -benchtime=${DURATION} -count=${COUNT}
-GO_TARANTOOL_URL := https://github.com/tarantool/go-tarantool
+GO_TARANTOOL_URL := https://github.com/GruffGemini/go-tarantool
 GO_TARANTOOL_DIR := ${PROJECT_DIR}/${BENCH_PATH}/go-tarantool
 TAGS :=
 TTCTL := tt

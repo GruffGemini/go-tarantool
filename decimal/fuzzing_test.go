@@ -6,8 +6,8 @@ package decimal_test
 import (
 	"testing"
 
+	. "github.com/GruffGemini/go-tarantool/v2/decimal"
 	"github.com/shopspring/decimal"
-	. "github.com/tarantool/go-tarantool/v2/decimal"
 )
 
 func strToDecimal(t *testing.T, buf string, exp int) decimal.Decimal {

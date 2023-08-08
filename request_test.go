@@ -11,7 +11,7 @@ import (
 	"github.com/tarantool/go-iproto"
 	"github.com/vmihailenco/msgpack/v5"
 
-	. "github.com/tarantool/go-tarantool/v2"
+	. "github.com/GruffGemini/go-tarantool/v2"
 )
 
 const invalidSpaceMsg = "invalid space"

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GruffGemini/go-tarantool/v2"
 	"github.com/stretchr/testify/require"
-	"github.com/tarantool/go-tarantool/v2"
 )
 
 // ConnectWithValidation tries to connect to a Tarantool instance.

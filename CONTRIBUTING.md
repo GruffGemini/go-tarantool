@@ -5,7 +5,7 @@
 Clone the repository and install dependencies.
 
 ```sh
-$ git clone https://github.com/tarantool/go-tarantool
+$ git clone https://github.com/GruffGemini/go-tarantool
 $ cd go-tarantool
 $ go get .
 ```
@@ -166,5 +166,5 @@ https://github.com/tarantool/tarantool/wiki/Benchmarking
 
 See also:
 
-- https://github.com/tarantool/tarantool/wiki/Code-review-procedure
+- https://github.com/GruffGemini/tarantool/wiki/Code-review-procedure
 - https://www.tarantool.io/en/doc/latest/contributing/

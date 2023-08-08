@@ -3,8 +3,8 @@ package crud_test
 import (
 	"testing"
 
+	"github.com/GruffGemini/go-tarantool/v2/crud"
 	"github.com/stretchr/testify/require"
-	"github.com/tarantool/go-tarantool/v2/crud"
 )
 
 func TestErrorMany(t *testing.T) {

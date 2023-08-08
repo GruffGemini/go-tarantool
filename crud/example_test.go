@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/tarantool/go-tarantool/v2"
-	"github.com/tarantool/go-tarantool/v2/crud"
+	"github.com/GruffGemini/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2/crud"
 )
 
 const (

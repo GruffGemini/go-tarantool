@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/tarantool/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2"
 )
 
 type roundRobinStrategy struct {

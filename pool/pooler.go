@@ -3,7 +3,7 @@ package pool
 import (
 	"time"
 
-	"github.com/tarantool/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2"
 )
 
 // Pooler is the interface that must be implemented by a connection pool.

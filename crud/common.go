@@ -58,7 +58,7 @@ import (
 
 	"github.com/tarantool/go-iproto"
 
-	"github.com/tarantool/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2"
 )
 
 type baseRequest struct {

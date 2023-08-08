@@ -15,8 +15,8 @@ import (
 
 	"github.com/vmihailenco/msgpack/v5"
 
-	"github.com/tarantool/go-tarantool/v2"
-	"github.com/tarantool/go-tarantool/v2/queue"
+	"github.com/GruffGemini/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2/queue"
 )
 
 type dummyData struct {

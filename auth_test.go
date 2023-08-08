@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	. "github.com/GruffGemini/go-tarantool/v2"
 	"github.com/stretchr/testify/assert"
-	. "github.com/tarantool/go-tarantool/v2"
 )
 
 func TestAuth_String(t *testing.T) {

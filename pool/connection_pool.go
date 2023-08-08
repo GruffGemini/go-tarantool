@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tarantool/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2"
 )
 
 var (

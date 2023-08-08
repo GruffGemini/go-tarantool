@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tarantool/go-tarantool/v2"
-	"github.com/tarantool/go-tarantool/v2/queue"
+	"github.com/GruffGemini/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2/queue"
 )
 
 // Example demonstrates an operations like Put and Take with queue.

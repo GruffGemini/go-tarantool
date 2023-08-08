@@ -10,9 +10,9 @@ import (
 
 	"github.com/vmihailenco/msgpack/v5"
 
-	. "github.com/tarantool/go-tarantool/v2"
-	"github.com/tarantool/go-tarantool/v2/queue"
-	"github.com/tarantool/go-tarantool/v2/test_helpers"
+	. "github.com/GruffGemini/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2/queue"
+	"github.com/GruffGemini/go-tarantool/v2/test_helpers"
 )
 
 var server = "127.0.0.1:3013"

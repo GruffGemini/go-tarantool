@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tarantool/go-iproto"
 
-	"github.com/tarantool/go-tarantool/v2"
-	"github.com/tarantool/go-tarantool/v2/crud"
-	"github.com/tarantool/go-tarantool/v2/test_helpers"
+	"github.com/GruffGemini/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2/crud"
+	"github.com/GruffGemini/go-tarantool/v2/test_helpers"
 )
 
 var server = "127.0.0.1:3013"

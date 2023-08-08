@@ -239,7 +239,7 @@ func (index *Index) DecodeMsgpack(d *msgpack.Decoder) error {
 
 		var ok bool
 		if index.Unique, ok = optsMap["unique"].(bool); !ok {
-			/* see bug https://github.com/tarantool/tarantool/issues/2060 */
+			/* see bug https://github.com/GruffGemini/tarantool/issues/2060 */
 			index.Unique = true
 		}
 	}

@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/tarantool/go-tarantool/v2"
+	"github.com/GruffGemini/go-tarantool/v2"
 )
 
 type StartOpts struct {
