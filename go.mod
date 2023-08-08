@@ -1,13 +1,19 @@
-module github.com/GruffGemini/go-tarantool/v2
+module go-tarantool
 
-go 1.11
+go 1.19
 
 require (
+	github.com/GruffGemini/go-tarantool/v2 v2.0.0-20230808073623-2a4499d13341
 	github.com/google/uuid v1.3.0
-	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/shopspring/decimal v1.3.1
-	github.com/stretchr/testify v1.7.1
+	github.com/stretchr/testify v1.8.4
 	github.com/tarantool/go-iproto v0.1.0
 	github.com/vmihailenco/msgpack/v5 v5.3.5
-	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
